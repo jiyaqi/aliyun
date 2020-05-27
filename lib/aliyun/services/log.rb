@@ -4,7 +4,7 @@ module Aliyun
       "Aliyu LOG Service"
     end
     def self.endpoint
-      'https://niuniu-pro.cn-hangzhou.log.aliyuncs.com/'
+      'http://niuniu-pro.cn-hangzhou.log.aliyuncs.com/'
     end
     def self.default_parameters
       {
