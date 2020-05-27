@@ -21,3 +21,5 @@ tmp
 *.a
 mkmf.log
 .aliyun.env
+.idea/
+.rakeTasks

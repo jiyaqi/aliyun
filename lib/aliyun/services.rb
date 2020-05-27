@@ -7,6 +7,7 @@ require "aliyun/services/rds"
 require "aliyun/services/slb"
 require "aliyun/services/sts"
 require "aliyun/services/vpc"
+require "aliyun/services/log"
 require "aliyun/services/business"
 
 module Aliyun
@@ -20,6 +21,7 @@ module Aliyun
     :slb => SLBConfig,
     :sts => STSConfig,
     :vpc => VPCConfig,
+    :log => LOGConfig,
     :business => BusinessConfig
   }
 end
